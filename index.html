@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HMR Funsies: just for fun</title>
+<meta name="description" content="Everything here exists to have fun. Games, toys, and a page you are invited to wreck. Part of the HMR family of websites.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HMR Funsies: just for fun">
+<meta property="og:description" content="Everything here exists to have fun. Games, toys, and a page you are invited to wreck.">
+<meta property="og:url" content="https://hmrfunsies.fun/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="top"><div class="wrap">
+  <a class="mark" href="https://hmrfamily.life" aria-label="The HMR family of websites">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#e8643c"/><path d="M14 46V18M14 32h14M28 46V18M36 46V18l10 16 10-16v28" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>HMR family</span></a>
+  <div id="picker"></div>
+</div></div>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">hmrfunsies.fun</p>
+    <h1>HMR <span>Funsies</span></h1>
+    <p class="lead">Everything here exists to have fun.</p>
+  </div>
+</header>
+<main id="main">
+  <section class="wrap" aria-labelledby="play-h">
+    <h2 id="play-h">Play</h2>
+    <p class="sub">Each one opens right here, full screen. You can open it in a new tab too.</p>
+    <div class="play">
+      <article class="pcard"><h3>Fen Smash</h3><p>The smash game. Go on, smash.</p>
+        <div class="row"><button type="button" class="btn primary" data-open="smash">Play now</button><a class="btn" href="https://claudebomb.com/smash/" target="_blank" rel="noopener">Open in new tab</a></div></article>
+      <article class="pcard"><h3>Reaction App</h3><p>Test your reactions.</p>
+        <div class="row"><button type="button" class="btn primary" data-open="react">Play now</button><a class="btn" href="https://reactionapp.life/app/" target="_blank" rel="noopener">Open in new tab</a></div></article>
+      <article class="pcard"><h3>Tensegrity physics sim</h3><p>Pluck a living structure.</p>
+        <div class="row"><button type="button" class="btn primary" data-open="tenseg">Play now</button><a class="btn" href="https://universemodel.ai/simulation.html" target="_blank" rel="noopener">Open in new tab</a></div></article>
+    </div>
+  </section>
+  <section class="wrap" aria-labelledby="wreck-h">
+    <h2 id="wreck-h">Wreck this page</h2>
+    <p class="sub">Press a button and watch this page misbehave. It always puts itself back.</p>
+    <div id="wreck" class="wreck"></div>
+  </section>
+  <section class="wrap" aria-labelledby="soon-h">
+    <h2 id="soon-h">Coming soon</h2>
+    <ul class="soon"><li>More games</li><li>More toys</li></ul>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <h2 class="foot-h">All our sites</h2>
+    <ul id="footlinks" class="foot"></ul>
+    <p><a class="btn primary" href="https://discord.gg/gEnC8TpNc" rel="noopener">Join us on Discord</a></p>
+    <p class="small">Always free, forever.</p>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+<script src="js/hmr-dock.js" data-site="hmrfunsies.fun" data-design=".pk-open" data-design-panel=".pk-panel" defer></script>
+</body>
+</html>
