@@ -43,7 +43,7 @@
 
   /* design picker: 3 looks, four-level rating */
   var DESIGNS = ["Sunrise", "Meadow", "Grape"];
-  var LEVELS = [["strong dislike", "Strong dislike"], ["dislike", "Dislike"], ["like", "Like"], ["strong like", "Strong like"]];
+  var LEVELS = [["strong like", "Strong like"], ["like", "Like"], ["dislike", "Dislike"], ["strong dislike", "Strong dislike"]];
   var KEY = "hmrfunsies.ratings.v1", ratings = {};
   try { ratings = JSON.parse(store(true, KEY) || "{}") || {}; } catch (e) { ratings = {}; }
   var design = parseInt(new URLSearchParams(location.search).get("design"), 10);
